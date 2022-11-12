@@ -8,4 +8,4 @@ def index(request):
 
 
 def land(request):
-    return render(request,'land.html')
+    return render(request,'myland.html')
