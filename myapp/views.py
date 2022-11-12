@@ -7,3 +7,5 @@ def index(request):
     return HttpResponse(' I changed this line....hello world')
 
 
+def land(request):
+    return render(request,'land.html')
