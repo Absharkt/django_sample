@@ -6,16 +6,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/d37084c1c8.js" crossorigin="anonymous"></script>
+
 
 </head>
 <body id="body">
-    
-    
-    
-    <style>
-        
-        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+	
+	
+	<style>
+		
+		@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 
 #title{
@@ -52,13 +54,31 @@
   flex-direction: column;
 }
 
+.fa-burger:hover,.fa-mug-saucer:hover,.fa-bowl-food:hover{
+  color: rgb(23, 65, 23);
+  transform: scale(1.4);
+  transition: transform 150ms ease-in-out;
+}
+
+ul{
+  list-style: none;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 20px;
+  line-height: 50%;
+
+}
+
+ul li{
+
+}
+
 
 #body{
 	margin: 0;
 	padding: 0;
-	background-color: #63cf90;
+	background: linear-gradient(to right,rgb(24, 189, 126),rgb(13, 143, 71));
 	overflow-x:hidden;
-	overflow-y:hidden;
+	/*overflow-y:hidden;*/
 }
 
 /*waves****************************/
@@ -79,7 +99,7 @@
   position: absolute;
   top: 3%;
   left: 10%;
-  background: #18a854;
+  background: #18442a;
   width: 1500px;
   height: 1300px;
   margin-left: -150px;
@@ -92,13 +112,13 @@
 .wave.-three {
   animation: drift 7500ms infinite linear;
 	position: fixed;
-	background-color: #139c4c;
+	background-color: #bebebe;
 }
 
 .wave.-two {
-  animation: drift 3000ms infinite linear;
+  animation: drift 3500ms infinite linear;
   opacity: .1;
-  background: black;
+  background: rgb(0, 0, 0);
 	position: fixed;
 }
 
@@ -199,10 +219,9 @@
     transform: scale(0,0) rotateZ(90deg);opacity:0
   }
 }
-        
-    </style>
-    
-    
+		
+	</style>
+	
     
     <div class='box'>
         <div class='wave -one'></div>
@@ -215,31 +234,53 @@
         
         <div class="row mt-4 ml-4 text-light">
 
-            <div class="col-md-6 ">
+
+            <div class="col-md-6 rightsd p-3 mb-3">
 
                 <h1 id="title">FOODSHADE</h1>
-                <p class="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam perferendis repellat necessitatibus, suscipit aspernatur velit doloremque praesentium ex, ipsum sequi quibusdam nulla cum alias, reprehenderit tempora laudantium provident minima quas.</p>
-
-                <ul>
-                    <li>dfgdg</li>
-                    <li>dfgdg</li>
-                    <li>dfgdg</li>
-                    <li>dfgdg</li>
-                </ul>
-
-            </div>
 
 
-
-            <div class="col-md-6 rightsd p-3 mt-5">
-
-                <h3 class="slog mb-4 mt-5">The Quickest Way  to <br> Find The Perfect Bite . .</h3>
+                <h3 class="slog mb-4 mt-4">The Quickest Way  to <br> Find The Perfect Bite . .</h3>
                 <a href="#" class="goto">SIGN UP</a>
-<hr>
+            <hr>
                 <h4 class="slog mt-1 mb-4">Add Your Restaurent, <br> Join With Us</h4>
                 <a href="#" class="goto">REGISTER</a>
 
             </div>
+
+
+            <div class="col-md-6 mt-5">
+
+                <ul class="mb-5">
+                    <li><h3>Pleasently Served</h3></li>
+                    <li><h3>A delicios Journey</h3></li>
+                    <li><h3>Feel The Real Experience</h3></li>
+                    <li><h3>Feed Your Dreams</h3></li>
+                    <li><h3>Grill,Frill,Chill</h3></li>
+                </ul>
+
+                <div class="d-flex justify-content-center mb-5">
+                    <i class="fa-solid fa-burger fa-4x m-4"></i>
+                    <i class="fa-solid fa-mug-saucer fa-4x m-4"></i>
+                    <i class="fa-solid fa-bowl-food fa-4x m-4"></i>
+                </div>
+
+
+                <div class="mb-4 ">
+                    <span class="d-flex justify-content-center">Follow Us On</span>
+
+                    <div class="d-flex justify-content-center"> 
+                        <i class="fa-brands fa-facebook-f m-1"></i>
+                        <i class="fa-brands fa-instagram m-1"></i>
+                        <i class="fa-brands fa-twitter m-1"></i>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+
 
         </div>
 
